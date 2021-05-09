@@ -1,4 +1,4 @@
-# Личный проект «Кэт энерджи» [![Build status][travis-image][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Личный проект «Кэт энерджи» 
 
 * Студент: [Патрик Яворский](https://gerwld.github.io).
 * Наставник: `Torrent Torrentinio`.
