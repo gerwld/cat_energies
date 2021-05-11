@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
@@ -9,7 +9,8 @@
       <a href="#" class="page-header__logo">
         <img src="img.logo.svg" width="" height="" alt="logo">
       </a>
-      <nav class="main-nav">
+      <nav class="main-nav" role="navigation">
+        <button type="button" class="main-nav__touch visually-hidden">touch-icon</button>
         <ul class="main-mav__list">
           <li class="main-nav__item_active"><a>Главная</a></li>
           <li class="main-nav__item"><a href="#">Каталог продукции</a></li>
@@ -17,5 +18,88 @@
         </ul>
       </nav>
     </<header>
+
+    <main class="page-main">
+      <div class="promo">
+        <h1 class="promo__title">Функциональное питание для котов</h1>
+        <span class="promo__slogan">Занялся собой? Займись котом!</span>
+        <a href="#" class="promo__link">
+          <button class="button promo__button" type="button">Подобрать Программу</button>
+        </a>
+        <img class="promo__image" src="sources/img/promo.png" alt="Cat Energy функциональное питание" width="" height="">
+      </div>
+
+      <section class="catalog">
+        <article class="catalog-item">
+          <h2 class="catalog-item__title">Похудение</h2>
+          <p class="catalog-item__description">Ваш кот весит больше собаки и почти утратил
+            способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет
+            вашему питомцу сбросить лишний вес.</p>
+          <img src="#" class="catalog-item__icon" alt="Похудение">
+          <a href="#" class="catalog-item__link"><button class="button catalog-item__button" type="button">Каталог Slim</button></a>
+        </article>
+        <article class="catalog-item">
+          <h2 class="catalog-item__title">Набор массы</h2>
+          <p class="catalog-item__description">Заработать авторитет среди дворовых котов и даже собак?
+            Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+          <img src="#" class="catalog-item__icon" alt="Набор массы">
+          <a href="#" class="catalog-item__link"><button class="button catalog-item__button" type="button">Каталог Pro</button></a>
+        </article>
+      </section>
+
+      <section class="how-works">
+        <h2 class="how-works__title">Как это работает</h2>
+
+        <div class="how-works__item">
+          <h3 class="visually-hidden">Функциональное питание</h3>
+          <p class="how-works__description">Функциональное питание
+            содержит только полезные
+            питательные вещества.</p>
+          <img src="sources/img/how-works-1.svg" alt="Функциональное питание"></a>
+        </div>
+
+        <div class="how-works__item">
+          <h3 class="visually-hidden">Форма производства</h3>
+          <p class="how-works__description">Выпускается в виде порошка,
+            который нужно лишь залить
+            кипятком и готово.</p>
+          <img src="sources/img/how-works-2.svg" alt="Функциональное питание"></a>
+        </div>
+
+        <div class="how-works__item">
+          <h3 class="visually-hidden">Как кормить питомца нашим питанием</h3>
+          <p class="how-works__description">Замените один-два приема
+            обычной еды на наше
+            функциональное питание.</p>
+          <img src="sources/img/how-works-3.svg" alt="Как кормить питомца"></a>
+        </div>
+
+        <div class="how-works__item">
+          <h3 class="visually-hidden">Первые изменения</h3>
+          <p class="how-works__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+          <img src="sources/img/how-works-4.svg" alt="Первые изменения"></a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <a href="#" class="page-footer__logo">
+        <img src="sources/img/logo.svg" width="" height="" alt="logo">
+      </a>
+      <nav class="soc-menu" role="navigation">
+        <a href="#" title="Мы Вконтакте" class="soc-menu__link">
+          <img src="sources/img/vk.svg" class="soc-menu__icon">
+        </a>
+        <a href="#" title="Мы в Instagram" class="soc-menu__link">
+          <img src="sources/img/ig.svg" class="soc-menu__icon">
+        </a>
+        <a href="#" title="Мы в Facebook" class="soc-menu__link">
+          <img src="sources/img/fb.svg" class="soc-menu__icon">
+        </a>
+      </nav>
+      <span class="page-footer__copyright">
+        <a class="page_footer__link">HTML Academy</a>
+      </span>
+      <a href="" class="page-footer__icon"><img src="sources/img/htmlacademy.svg" width="" height=""></a>
+    </footer>
   </body>
 </html>
